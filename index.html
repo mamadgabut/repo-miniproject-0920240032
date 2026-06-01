@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Project Azure - Estimasi Biaya</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 40px; background: #f0f2f5; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h1 { color: #0078d4; }
+        .info { background: #e7f3ff; padding: 10px; border-left: 5px solid #0078d4; margin-bottom: 20px; }
+        code { background: #eee; padding: 2px 5px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Informasi Kegiatan Mahasiswa</h1>
+        
+        <div class="info">
+            <p><strong>Nama:</strong> Muhammad Hafizh Ramadhan</p>
+            <p><strong>NIM:</strong> 0920240032</p>
+            <p><strong>Layanan Azure yang digunakan:</strong> Static Web Apps, App Service, Container Apps, Azure Functions.</p>
+        </div>
+
+        <h3>Panduan Penggunaan API Estimasi Biaya:</h3>
+        <p>Gunakan endpoint berikut untuk menghitung biaya konsumsi:</p>
+        <code>GET /api/EstimasiBiaya?jumlah=[angka]&jenis=[snack/makan/lengkap]</code>
+        
+        <h4>Ketentuan Harga:</h4>
+        <ul>
+            <li>Snack: Rp15.000</li>
+            <li>Makan: Rp30.000</li>
+            <li>Lengkap: Rp45.000</li>
+        </ul>
+    </div>
+</body>
+</html>
